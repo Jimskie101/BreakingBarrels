@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7734765181907019875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7734765181907019873}
+  - component: {fileID: 7734765181907019872}
+  m_Layer: 0
+  m_Name: TileManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7734765181907019873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734765181907019875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41999996, y: 4.35, z: -0.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7734765181907019872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734765181907019875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b953650788471d34bb91c49a52f390da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefab: {fileID: 8144826294582833599, guid: 7af93d89e13b162429c9f62b01a24926, type: 3}
+  tiles:
+  - ID: 0
+    name: GreenGem
+    sprite: {fileID: 21300000, guid: 06dd3131f45d8654bbd1ec74076e90b8, type: 3}
+    Quantity: 0
+  - ID: 1
+    name: Key
+    sprite: {fileID: 21300000, guid: 57644579564d57745b54124ad8e378b3, type: 3}
+    Quantity: 0
+  - ID: 2
+    name: RedGem
+    sprite: {fileID: 21300000, guid: 0838ba444e54e6e45b5398cafd1dfc37, type: 3}
+    Quantity: 0
+  - ID: 3
+    name: PurpleGem
+    sprite: {fileID: 21300000, guid: a3995ce37b8d44f4c8695ea5d872daea, type: 3}
+    Quantity: 0
+  - ID: 4
+    name: BlueChest
+    sprite: {fileID: 21300000, guid: 347d84267a27c2946b27d875221f70b7, type: 3}
+    Quantity: 0
+  - ID: 5
+    name: WoodChest
+    sprite: {fileID: 21300000, guid: d50fb80dd22823e4097ec01326d44dac, type: 3}
+    Quantity: 0
+  - ID: 6
+    name: Star
+    sprite: {fileID: 21300000, guid: 6f7cef2a5db5cc54c942b2dea7b97455, type: 3}
+    Quantity: 0
+  - ID: 7
+    name: BlueGem
+    sprite: {fileID: 21300000, guid: a4b33ff774c4b70479eb6c9493ff20eb, type: 3}
+    Quantity: 0
+  - ID: 8
+    name: Coin
+    sprite: {fileID: 21300000, guid: 0f923585376005743b17bcbbb6b61cbd, type: 3}
+    Quantity: 0
+  tileCoord: []
+  fracturedCount: 0
+  xMin: 0
+  xMax: 0
+  yMax: 0
+  clusterPairCount: 0
